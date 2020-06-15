@@ -30,7 +30,7 @@ function initializeApp(data) {
             type: 'text',
             text: "Hello World!"
         }]).then(function () {
-            window.alert("Message sent");
+            window.alert("sent");
         }).catch(function (error) {
             window.alert("Error sending message: " + error);
         });
